@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Foldit', cursive;
+    font-family: 'Rubik Puddles', cursive;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+body{
+    background-image: url('https://steamuserimages-a.akamaihd.net/ugc/947341295647290792/B4C7CCCCF8F41317864A699F3350EC898EAE4162/');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+/*pagina principal de las preguntas del quiz*/ 
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 1px 2px 1px;
+    
+}
+.container-quiz{
+
+    background-color: rgba(0,0,0,0.3);
+    width: 450px;
+    height: 580px;
+    margin: 0 auto;
+    margin-top: 150px;
+    box-shadow: 8px 8px 4px rgba(0,0,0,0.3);
+    border-radius: 20px;
+    padding: 30px;
+    border: 2px solid rgba(192,29,22, 0.3);
+}
+
+.container-quiz #pregunta{
+    margin-left: 50px;
+    background-color: #f3f6f4;
+    width: 350px;
+    text-align: center;
+    height: 50px;
+    padding: 5px; 
+    color: black;
+    border-radius: 12px;
+    text-transform: capitalize;
+    box-shadow: 3px 2px 5px rgba(0,0,0,0.3);
+}
+
+.container-quiz #botones-respuesta{
+    display: grid;
+    margin: 20px;
+}
+
+
+.container-quiz #botones-respuesta button{
+    margin: 10px;
+    height: 50px;
+    margin-left: 0px;
+    border: 1px solid rgba(0,0,0,0.6);
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.2s;
+}
+
+.container-quiz #botones-respuesta button:hover{
+    box-shadow: 4px 5px 2px rgba(192,29,22,0.9);
+    text-shadow: 1px 2px 2px rgba(0,0,0,0.3);
+    cursor: pointer;
+    
+    color: black;
+    font-weight: 900;
+   
+}
+
+.container-quiz #next{
+    margin-left: 120px;
+    height: 70px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 14px;
+    border: 1px solid rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+
+.container-quiz #next:hover{
+    box-shadow: 4px 2px 4px rgba(0,0,0,0.6);
+    background-color: #c01d16;
+    color: black;
+    cursor: pointer;
+}
+.container-quiz #check{
+    margin-top: 3px;
+    margin-left: 120px;
+    height: 70px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 14px;
+    border: 1px solid rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+.container-quiz #check:hover{
+    box-shadow: 4px 2px 4px rgba(0,0,0,0.6);
+    background-color: #c01d16;
+    color: black;
+    cursor: pointer;
+}
+.container-quiz #back{
+    margin-top: 3px;
+    margin-left: 120px;
+    height: 70px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 14px;
+    border: 1px solid rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+.container-quiz #back:hover {
+    box-shadow: 4px 2px 4px rgba(0,0,0,0.6);
+    background-color: #c01d16;
+    color: black;
+    cursor: pointer;
+}
+.correcto{
+    background-color: #9aeabc;
+}
+.incorrecto{
+    background-color: #ff9393;
+}
